@@ -3,16 +3,16 @@ El mismo se creó utilizando Laravel para consumir API Rest y se implemetaron co
 Se decidió utilizar Laravel con React por una cuestión de facilidad de arquitectura, pero se aclara que se podría haber realizado el frontend enteramente con create-react 
 
 # Instalación
-
-_git clone https://github.com/biottmau/alitaware_challenge_
+```
+git clone https://github.com/biottmau/alitaware_challenge
+```
 
 ## Instalar la base de datos  
-La base de datos se realizó en MySQL y esta el esquema guardado en alitaware.sql
+La base de datos se realizó en MySQL y el esquema se encuentra guardado en alitaware.sql
 
 En los comments de cada tabla  se encuentra descripto la razón de la creación de cada una.
 
 ## Preparar env
-
 Copiar .env.example a .env
 ```
 cp .env.example .env
@@ -69,28 +69,28 @@ El ruteo se definió en
 
 Controladores:
 * app/Http/Controllers
-** UserController.php
-** PaymentsController.php
+  - UserController.php
+  - PaymentsController.php
 
 Modelos:
 * app/Models
-** User.php
-** Payments.php
-** UserAccess.php
+  - User.php
+  - Payments.php
+  - UserAccess.php
 
 Vistas:
 * resources/views
-** layout/footer.blade.php
-** layout/header.blade.php
-** users/search.blade.php ( Pantalla de busqueda y mapa )
-** payments/index.blade.php ( Pantalla de muestra de pagos )
+  - layout/footer.blade.php
+  - layout/header.blade.php
+  - users/search.blade.php ( Pantalla de busqueda y mapa )
+  - payments/index.blade.php ( Pantalla de muestra de pagos )
 
 Componentes React:
 * resources/js/app.js
-** BuscadorMap.js
-** BuscadorUser.js
-** Marker.js
-** PaymentsTable.js
+  - BuscadorMap.js
+  - BuscadorUser.js
+  - Marker.js
+  - PaymentsTable.js
 
 ## API
 Los Endpoint se definieron en
@@ -98,15 +98,15 @@ Los Endpoint se definieron en
 
 Controladores:
 * app/Http/Controllers
-** UserController.php
-** PaymentsController.php
+  - UserController.php
+  - PaymentsController.php
 
 Modelos:
 * app/Models
-** User.php
-** Payments.php
-** UserAccess.php
+  - User.php
+  - Payments.php
+  - UserAccess.php
 
-## Consumo de API de terceros
+# Consumo de API de terceros
 Se realizó la lectura de una api de terceros y la misma se definió directamente sobre /routes/api.php
 
