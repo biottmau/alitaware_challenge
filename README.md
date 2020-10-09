@@ -41,24 +41,6 @@ npm install
 npm run dev
 ```
 
-# Información Extra
-
-## Instalar laravel 
-```
-composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO
-```
-## Agregar React al proyecto en Laravel
-```
-composer require laravel/ui
-php artisan ui react
-```
-
-## Ejecutar comando para compilar el react mientras desarrollamos
-```
-npm run watch-poll
-```
-
-
 # Archivos donde ser realizó el trabajo propuesto
 ## Base de datos
 Se encuentra el detalle de cada tabla, la creación y datos de prueba en el archivos alitaware.sql
@@ -110,3 +92,22 @@ Modelos:
 # Consumo de API de terceros
 Se realizó la lectura de una api de terceros y la misma se definió directamente sobre /routes/api.php
 
+
+
+
+# Información Extra
+
+## Instalar laravel 
+```
+composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO
+```
+## Agregar React al proyecto en Laravel
+```
+composer require laravel/ui
+php artisan ui react
+```
+
+## Ejecutar comando para compilar el react mientras desarrollamos
+```
+npm run watch-poll
+```
