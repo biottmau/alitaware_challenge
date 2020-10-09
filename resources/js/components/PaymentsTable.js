@@ -1,3 +1,6 @@
+/**
+ * Componente con el Datatable , el cual busca la info desde el API correspondiente.
+ */
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 

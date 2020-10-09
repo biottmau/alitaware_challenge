@@ -41,6 +41,15 @@ npm install
 npm run dev
 ```
 
+# Ejecutar Challenge
+```
+php artisan serve --port=8866
+```
+Y en el Browser iniciar 
+```
+http://localhost:8866
+```
+
 # Archivos donde ser realizó el trabajo propuesto
 ## Base de datos
 Se encuentra el detalle de cada tabla, la creación y datos de prueba en el archivos alitaware.sql

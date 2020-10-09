@@ -11,6 +11,7 @@ class PaymentsController extends Controller
 
     /**
      * Controlador de la busqueda de suscriptores o usuarios
+     * Solo realizar el render de la vista
      */
     public function index(){
 

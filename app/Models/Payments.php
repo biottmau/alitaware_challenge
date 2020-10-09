@@ -12,6 +12,11 @@ class Payments extends Model
     // Le cambio la tabla
     protected $table = 'payments';
 
+
+    /**
+     * Se anidan los datos de los pagos en conjunto las suscripciones y los equipos
+     * dando forma a un JSON para su posterior consumo por API
+     */
     public static function getAllForDataTable()
     {
         $model = static::select("payments.*", "user.username", "user.email")

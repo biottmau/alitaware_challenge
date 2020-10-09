@@ -1,3 +1,7 @@
+/**
+ * Componente con el render del Marker del mapa que muestra la provincia tambien
+ */
+
 import React from 'react';
 import BeenhereIcon from '@material-ui/icons/Beenhere';
 
