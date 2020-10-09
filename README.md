@@ -59,7 +59,7 @@ npm run watch-poll
 ```
 
 
-# Archivos donde se trabajó.
+# Archivos donde ser realizó el trabajo propuesto
 ## Base de datos
 Se encuentra el detalle de cada tabla, la creación y datos de prueba en el archivos alitaware.sql
 
