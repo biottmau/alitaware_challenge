@@ -1,5 +1,5 @@
 ## El siguiente repositorio es a fines de completar un challenge propuesto por una empresa.
-El mismo se creó utilizando Laravel para consumir API Rest y se implemetaron componentes React para la creación de dos pantallas tipo Frontend.
+El mismo se creó utilizando Laravel para consumir API Rest y se implementaron componentes React para la creación de dos pantallas tipo Frontend.
 Se decidió utilizar Laravel con React por una cuestión de facilidad de arquitectura, pero se aclara que se podría haber realizado el frontend enteramente con create-react 
 
 # Instalación
@@ -52,7 +52,7 @@ http://localhost:8866
 
 # Archivos donde ser realizó el trabajo propuesto
 ## Base de datos
-Se encuentra el detalle de cada tabla, la creación y datos de prueba en el archivos alitaware.sql
+Se encuentra el detalle de cada tabla, la creación y datos de prueba en el archivo alitaware.sql
 
 ## Fronend
 El ruteo se definió en
