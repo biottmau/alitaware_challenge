@@ -17,15 +17,15 @@ _cp .env.example .env_
 
 ## Configurar env
 Completar los datos de API KEY para ver el mapa de Google y los datos de conexión de base de datos.
---
-GOOGLE_API_KEY = API_DE_GOOLGE_MAPS
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=alitaware
-DB_USERNAME=root
-DB_PASSWORD=
---
+
+_GOOGLE_API_KEY = API_DE_GOOLGE_MAPS_
+_DB_CONNECTION=mysql_
+_DB_HOST=127.0.0.1_
+_DB_PORT=3306_
+_DB_DATABASE=alitaware_
+_DB_USERNAME=root_
+_DB_PASSWORD=_
+
 
 ## Preparar laravel para que funcione
 _composer install_
