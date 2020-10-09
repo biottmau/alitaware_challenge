@@ -12,36 +12,51 @@ La base de datos se realizó en MySQL y esta el esquema guardado en alitaware.sq
 En los comments de cada tabla  se encuentra descripto la razón de la creación de cada una.
 
 ## Preparar env
+
 Copiar .env.example a .env
-_cp .env.example .env_
+```
+cp .env.example .env
+```
 
 ## Configurar env
 Completar los datos de API KEY para ver el mapa de Google y los datos de conexión de base de datos.
 
-_GOOGLE_API_KEY = API_DE_GOOLGE_MAPS_
-_DB_CONNECTION=mysql_
-_DB_HOST=127.0.0.1_
-_DB_PORT=3306_
-_DB_DATABASE=alitaware_
-_DB_USERNAME=root_
-_DB_PASSWORD=_
+```
+GOOGLE_API_KEY = API_DE_GOOLGE_MAPS
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=alitaware
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
 
 
 ## Preparar laravel para que funcione
-_composer install_
-_npm install_
-_npm run dev_
+
+```
+composer install
+npm install
+npm run dev
+```
 
 # Información Extra
 
 ## Instalar laravel 
-_composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO_
+```
+composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO
+```
 ## Agregar React al proyecto en Laravel
-_composer require laravel/ui_
-_php artisan ui react_
+```
+composer require laravel/ui
+php artisan ui react
+```
 
 ## Ejecutar comando para compilar el react mientras desarrollamos
-_npm run watch-poll_
+```
+npm run watch-poll
+```
 
 
 # Archivos donde se trabajó.
