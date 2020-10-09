@@ -4,7 +4,7 @@ Se decidió utilizar Laravel con React por una cuestión de facilidad de arquite
 
 # Instalación
 
-git clone https://github.com/biottmau/alitaware_challenge
+_git clone https://github.com/biottmau/alitaware_challenge_
 
 ## Instalar la base de datos  
 La base de datos se realizó en MySQL y esta el esquema guardado en alitaware.sql
@@ -13,7 +13,7 @@ En los comments de cada tabla  se encuentra descripto la razón de la creación 
 
 ## Preparar env
 Copiar .env.example a .env
-* cp .env.example .env
+_cp .env.example .env_
 
 ## Configurar env
 Completar los datos de API KEY para ver el mapa de Google y los datos de conexión de base de datos.
@@ -28,19 +28,20 @@ DB_PASSWORD=
 --
 
 ## Preparar laravel para que funcione
-* composer install 
-* npm install
-* npm run dev
+_composer install_
+_npm install_
+_npm run dev_
 
 # Información Extra
 
 ## Instalar laravel 
-composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO
+_composer create-project --prefer-dist laravel/laravel NOMBRE_PROYECTO_
 ## Agregar React al proyecto en Laravel
-composer require laravel/ui
-php artisan ui react
+_composer require laravel/ui_
+_php artisan ui react_
+
 ## Ejecutar comando para compilar el react mientras desarrollamos
-npm run watch-poll
+_npm run watch-poll_
 
 
 # Archivos donde se trabajó.
